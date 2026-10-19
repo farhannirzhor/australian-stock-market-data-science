@@ -1,0 +1,7 @@
+topic,finding,implication
+Predictive performance,The Phase 23 selected model did not beat the mean baseline on held-out test MAE.,Do not claim that the current predictors provide reliable incremental return-prediction value.
+Negative R-squared,The reported selected-model test R-squared is negative.,The model performs poorly relative to a test-mean reference in explaining return variation.
+Prediction bias,The selected model's mean predicted return exceeds the actual test-period mean.,The model overpredicted average returns during this held-out period.
+Overlapping targets,"The target spans 63 future observations per ticker, so nearby target windows overlap.",Row-level observations are dependent; uncertainty should not be calculated as if every row were independent.
+Feature provenance,Earlier phases identified merge-suffixed columns and required manual point-in-time feature checks.,"Verify feature formulas, timestamp alignment, and benchmark availability before claiming a leakage-free experiment."
+Historical scope,Evaluation covers one historical held-out period.,Results do not guarantee future performance and are not investment advice.

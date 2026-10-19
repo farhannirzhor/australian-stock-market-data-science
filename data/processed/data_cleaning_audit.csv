@@ -1,0 +1,10 @@
+Issue,Action,Details
+Completely empty columns,Excluded from analytical dataset,"shareholders_equity_m, pe_10y_average, buy_price"
+Duplicate ticker,Flagged; not automatically removed,KMD requires manual/source verification
+Annual P/E #REF!/missing values,Retained as missing; no imputation,Underlying source formula was broken
+Market capitalization,Recalculated from total shares × price,Corrects source formula-reference errors
+LTM EPS,Recalculated from 2H2024 + 1H2025,Independent validation of source calculation
+LTM P/E,Recalculated from price / LTM EPS × 100,Corrects inconsistent source values
+52-week range,Parsed and numerically validated,Original text field retained
+Negative EPS/P-E,Retained,May represent legitimate negative earnings
+Financial outliers,"Flagged, not removed",Extreme financial values can be legitimate

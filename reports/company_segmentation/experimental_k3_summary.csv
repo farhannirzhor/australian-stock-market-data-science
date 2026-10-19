@@ -1,0 +1,2 @@
+rows,unique_tickers,algorithm,k,silhouette_score,cluster_sizes,feature_transformation,interpretation
+53,53,KMeans,3,0.35941577235347655,"{0: 13, 1: 36, 2: 4}",log1p market cap; signed log1p P/E,Exploratory segmentation; not predictive

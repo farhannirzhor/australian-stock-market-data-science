@@ -1,0 +1,12 @@
+Metric,Value
+Rows,54
+Columns,22
+Unique Companies,54
+Unique Tickers,53
+Duplicate Rows,0
+Duplicate Tickers,1
+Completely Empty Columns,3
+Formula Cells,263
+Formula Error Cells,2
+Numeric Columns,19
+Text Columns,3

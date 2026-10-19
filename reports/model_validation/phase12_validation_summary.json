@@ -1,0 +1,36 @@
+{
+  "phase": 12,
+  "target": "forward_return_3m",
+  "test_rows": 9412,
+  "test_tickers": 52,
+  "n_predictors_in_phase11": 32,
+  "actual_test_mean": -0.009887806217044012,
+  "predicted_test_mean": 0.030212474276559168,
+  "prediction_mean_gap": 0.04010028049360318,
+  "large_mean_gap_flag": false,
+  "recalculated_metrics": [
+    {
+      "model": "Training+validation mean baseline",
+      "n": 9412,
+      "MAE": 0.14378448609198502,
+      "RMSE": 0.18496449458380324,
+      "R2": -0.04494967189046384,
+      "actual_mean": -0.009887806217044012,
+      "predicted_mean": 0.028474432730444876,
+      "prediction_bias_mean_pred_minus_actual": 0.038362238947488886
+    },
+    {
+      "model": "Phase 11 selected model",
+      "n": 9412,
+      "MAE": 0.0917140531097856,
+      "RMSE": 0.12416382162328857,
+      "R2": 0.5291215922881065,
+      "actual_mean": -0.009887806217044012,
+      "predicted_mean": 0.030212474276559168,
+      "prediction_bias_mean_pred_minus_actual": 0.04010028049360318
+    }
+  ],
+  "explicit_target_endpoint_columns_found": [],
+  "purge_limit": "Phase 11 purged 63 global unique dates; exact label-endpoint purging requires endpoint dates saved in Phase 9.",
+  "conclusion": "Review leakage, target endpoint alignment, and baseline comparison before claiming robust predictive performance."
+}

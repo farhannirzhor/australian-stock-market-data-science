@@ -1,0 +1,10 @@
+item,decision
+Prediction question,To be decided
+Target variable,Not defined yet
+Forecast horizon,"Not defined yet (e.g., 1, 3, or 6 months)"
+Prediction timestamp,Not defined yet
+Universe,Companies included and eligibility rules to be documented
+Benchmark,Required only for relative-return tasks
+Feature availability rule,Every predictor must be available on or before prediction timestamp
+Validation strategy,Chronological split / walk-forward validation for time-dependent targets
+Evaluation metrics,Choose only after target type and business objective are fixed

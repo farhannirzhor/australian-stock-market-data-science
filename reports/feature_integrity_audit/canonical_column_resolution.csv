@@ -1,0 +1,11 @@
+canonical_feature,source_columns,resolution,safe_to_collapse
+momentum_21d,momentum_21d_x; momentum_21d_y,conflicting pair preserved; manual review required,False
+momentum_63d,momentum_63d_x; momentum_63d_y,conflicting pair preserved; manual review required,False
+benchmark_return_1d,benchmark_return_1d_x; benchmark_return_1d_y,collapsed identical columns; canonical source=benchmark_return_1d_x,True
+benchmark_volatility_21d,benchmark_volatility_21d_x; benchmark_volatility_21d_y,conflicting pair preserved; manual review required,False
+benchmark_volatility_63d,benchmark_volatility_63d_x; benchmark_volatility_63d_y,conflicting pair preserved; manual review required,False
+momentum_21d,momentum_21d_y; momentum_21d_x,conflicting pair preserved; manual review required,False
+momentum_63d,momentum_63d_y; momentum_63d_x,conflicting pair preserved; manual review required,False
+benchmark_return_1d,benchmark_return_1d_y; benchmark_return_1d_x,collapsed identical columns; canonical source=benchmark_return_1d,True
+benchmark_volatility_21d,benchmark_volatility_21d_y; benchmark_volatility_21d_x,conflicting pair preserved; manual review required,False
+benchmark_volatility_63d,benchmark_volatility_63d_y; benchmark_volatility_63d_x,conflicting pair preserved; manual review required,False

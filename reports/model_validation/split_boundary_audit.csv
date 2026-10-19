@@ -1,0 +1,4 @@
+split,first_date,last_date,rows
+purged train,2021-10-19,2024-11-14,40447
+purged validation,2025-02-18,2025-08-05,6084
+held-out test,2025-11-03,2026-07-22,9412

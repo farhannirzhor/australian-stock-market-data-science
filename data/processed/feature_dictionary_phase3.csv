@@ -1,0 +1,20 @@
+feature,meaning,derivation,caveat
+log_market_cap_m,Natural log of market capitalization (millions),ln(market_cap_m) when positive,Missing for nonpositive/missing market cap
+market_cap_size_band,Relative company-size band,Tertiles of positive market cap,"Sample-relative, not an official classification"
+eps_half_year_difference,Difference between half-year EPS values,eps_1h2025 - eps_2h2024,Not automatically a growth rate
+eps_ltm_vs_annual_difference,LTM EPS minus supplied annual EPS,eps_ltm - eps_ap_24_25,Periods may not be directly comparable
+eps_ltm_vs_annual_pct_difference,Relative LTM/annual EPS difference,(LTM - annual) / annual * 100,Only where annual EPS is positive
+earnings_yield_pct,Reciprocal of positive LTM P/E as percent,100 / pe_ltm,Only where LTM P/E is positive
+price_to_book,Price relative to book value per share,price / book_value_per_share,Only where book value per share is positive
+pe_ltm_minus_annual,LTM P/E minus annual-report P/E,pe_ltm - pe_annual_report,Descriptive comparison across periods
+pe_ltm_vs_annual_pct_difference,Relative difference between P/E measures,(LTM P/E - annual P/E) / annual P/E * 100,Only where annual-report P/E is positive
+week52_range_width,Width of parsed 52-week range,week52_high - week52_low,Only for valid ranges
+price_position_52w,Position of price within 52-week range,(price - low) / (high - low),Only for valid ranges; can be outside 0-1
+price_distance_from_52w_low_pct,Percent distance from 52-week low,(price - low) / low * 100,Only for valid ranges and nonzero low
+price_distance_from_52w_high_pct,Percent distance below 52-week high,(high - price) / high * 100,Only for valid ranges and nonzero high
+price_outside_52w_range,Price is outside reported range,price < low or price > high,Missing if price/range unavailable
+annual_pe_missing_flag,Annual P/E is missing,pe_annual_report is missing,Flags; does not impute
+negative_ltm_eps_flag,LTM EPS is negative,eps_ltm < 0,Negative EPS may be legitimate
+negative_ltm_pe_flag,LTM P/E is negative,pe_ltm < 0,Interpret cautiously with negative earnings
+nonpositive_book_value_flag,Book value/share is zero or negative,book_value_per_share <= 0,Not automatically a data error
+invalid_52w_range_flag,52-week range is invalid/unavailable,Range missing or high <= low,WOW's malformed source range remains unresolved

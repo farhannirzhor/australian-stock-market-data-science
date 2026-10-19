@@ -1,0 +1,4 @@
+Column,Missing Count,Missing Percentage,Action
+shareholders_equity_m,54,100.0,Exclude from analytical dataset
+pe_10y_average,54,100.0,Exclude from analytical dataset
+buy_price,54,100.0,Exclude from analytical dataset

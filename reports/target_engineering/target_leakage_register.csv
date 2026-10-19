@@ -1,0 +1,16 @@
+column,role,allowed_as_predictor
+future_price_1m,future outcome / target construction only,False
+forward_return_1m,future outcome / target construction only,False
+future_price_3m,future outcome / target construction only,False
+forward_return_3m,future outcome / target construction only,False
+future_price_6m,future outcome / target construction only,False
+forward_return_6m,future outcome / target construction only,False
+benchmark_forward_return_1m,future outcome / target construction only,False
+benchmark_forward_return_3m,future outcome / target construction only,False
+benchmark_forward_return_6m,future outcome / target construction only,False
+relative_forward_return_1m,future outcome / target construction only,False
+outperforms_benchmark_1m,future outcome / target construction only,False
+relative_forward_return_3m,future outcome / target construction only,False
+outperforms_benchmark_3m,future outcome / target construction only,False
+relative_forward_return_6m,future outcome / target construction only,False
+outperforms_benchmark_6m,future outcome / target construction only,False

@@ -1,0 +1,6 @@
+base,column_a,column_b,overlap_rows,identical_full_series,equal_fraction_on_overlap
+momentum_21d,momentum_21d_x,momentum_21d_y,54799,False,0.016971112611544006
+momentum_63d,momentum_63d_x,momentum_63d_y,52615,False,0.0162121068136463
+benchmark_return_1d,benchmark_return_1d_x,benchmark_return_1d_y,55892,True,1.0
+benchmark_volatility_21d,benchmark_volatility_21d_x,benchmark_volatility_21d_y,54808,False,0.0
+benchmark_volatility_63d,benchmark_volatility_63d_x,benchmark_volatility_63d_y,52624,False,0.0

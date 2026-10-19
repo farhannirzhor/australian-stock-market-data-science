@@ -1,0 +1,48 @@
+column,included_as_feature,reason_if_excluded
+ticker,False,identifier/date
+date,False,identifier/date
+time_split,False,target or possible future/leakage column
+lagged_return_1d,True,
+lagged_return_5d,True,
+lagged_return_21d,True,
+lagged_return_63d,True,
+lagged_return_126d,True,
+volatility_5d,True,
+volatility_21d,True,
+volatility_63d,True,
+moving_average_5d,True,
+price_to_ma_5d,True,
+moving_average_21d,True,
+price_to_ma_21d,True,
+moving_average_50d,True,
+price_to_ma_50d,True,
+moving_average_100d,True,
+price_to_ma_100d,True,
+moving_average_200d,True,
+price_to_ma_200d,True,
+momentum_5d,True,
+momentum_21d,True,
+momentum_63d,True,
+momentum_126d,True,
+benchmark_return_1d,True,
+benchmark_return_5d_lagged,True,
+benchmark_volatility_5d,True,
+benchmark_return_21d_lagged,True,
+benchmark_volatility_21d,True,
+benchmark_return_63d_lagged,True,
+benchmark_volatility_63d,True,
+future_price_1m,False,target or possible future/leakage column
+forward_return_1m,False,target or possible future/leakage column
+future_price_3m,False,target or possible future/leakage column
+forward_return_3m,False,target or possible future/leakage column
+future_price_6m,False,target or possible future/leakage column
+forward_return_6m,False,target or possible future/leakage column
+benchmark_forward_return_1m,False,target or possible future/leakage column
+benchmark_forward_return_3m,False,target or possible future/leakage column
+benchmark_forward_return_6m,False,target or possible future/leakage column
+relative_forward_return_1m,False,target or possible future/leakage column
+outperforms_benchmark_1m,True,
+relative_forward_return_3m,False,target or possible future/leakage column
+outperforms_benchmark_3m,True,
+relative_forward_return_6m,False,target or possible future/leakage column
+outperforms_benchmark_6m,True,

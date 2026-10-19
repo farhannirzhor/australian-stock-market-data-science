@@ -1,0 +1,43 @@
+{
+  "phase": 16,
+  "selected_model_from_phase14": "Training mean baseline",
+  "selected_model_test_metrics": {
+    "model": "Training mean baseline",
+    "n": 9412,
+    "mae": 0.14378448609198502,
+    "rmse": 0.18496449458380324,
+    "r2": -0.044949671890463616,
+    "actual_mean": -0.009887806217044012,
+    "predicted_mean": 0.028474432730444803,
+    "mean_prediction_bias": 0.038362238947488816
+  },
+  "baseline_assessment": {
+    "status": "could not identify both baseline and non-baseline rows",
+    "rows_found": [
+      {
+        "model": "Train+validation mean baseline",
+        "n": 9412,
+        "mae": 0.143784486091985,
+        "rmse": 0.1849644945838032,
+        "r2": -0.0449496718904638,
+        "actual_mean": -0.009887806217044,
+        "predicted_mean": 0.0284744327304448,
+        "mean_prediction_bias": 0.0383622389474888
+      },
+      {
+        "model": "Training mean baseline",
+        "n": 9412,
+        "mae": 0.143784486091985,
+        "rmse": 0.1849644945838032,
+        "r2": -0.0449496718904638,
+        "actual_mean": -0.009887806217044,
+        "predicted_mean": 0.0284744327304448,
+        "mean_prediction_bias": 0.0383622389474888
+      }
+    ]
+  },
+  "validation_summary": "Best validation MAE model: Training mean baseline (MAE=0.141984).",
+  "full_candidate_test_comparison_available": false,
+  "test_comparison_status": "Only the selected model's test predictions were found. Do not claim that every candidate model was compared on the test set.",
+  "recommendation": "If the selected model does not beat the mean baseline, report the result honestly. For a complete final comparison, rerun Phase 14 with all candidate test predictions saved."
+}

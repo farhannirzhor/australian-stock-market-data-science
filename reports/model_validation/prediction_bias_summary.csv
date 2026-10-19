@@ -1,0 +1,8 @@
+quantity,value
+Actual test mean,-0.009887806217044012
+Predicted test mean,0.030212474276559168
+Mean prediction minus actual,0.04010028049360318
+Actual test median,-0.00942098860719315
+Predicted test median,-0.0009318744590226
+Actual test standard deviation,0.18095215336877452
+Predicted test standard deviation,0.12612489381437578

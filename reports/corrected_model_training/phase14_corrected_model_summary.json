@@ -1,0 +1,65 @@
+{
+  "phase": 14,
+  "target": "forward_return_3m",
+  "target_source": "Phase 13 corrected targets from Phase 8 prices",
+  "target_horizon": "63 future observations per ticker",
+  "features_used": [
+    "momentum_21d",
+    "momentum_63d",
+    "benchmark_return_1d",
+    "benchmark_volatility_21d",
+    "benchmark_volatility_63d"
+  ],
+  "train_rows": 40447,
+  "validation_rows": 6084,
+  "test_rows": 9412,
+  "train_max_target_endpoint": "2025-02-17 00:00:00",
+  "validation_start_date": "2025-02-18 00:00:00",
+  "validation_max_target_endpoint": "2025-10-31 00:00:00",
+  "test_start_date": "2025-11-03 00:00:00",
+  "endpoint_checks": {
+    "train_endpoints_before_validation_start": true,
+    "validation_endpoints_before_test_start": true,
+    "train_max_endpoint": "2025-02-17 00:00:00",
+    "validation_start": "2025-02-18 00:00:00",
+    "validation_max_endpoint": "2025-10-31 00:00:00",
+    "test_start": "2025-11-03 00:00:00",
+    "train_rows": 40447,
+    "validation_rows": 6084,
+    "test_rows": 9412
+  },
+  "selected_model_by_validation_mae": "Training mean baseline",
+  "test_metrics": {
+    "model": "Training mean baseline",
+    "n": 9412,
+    "MAE": 0.14378448609198502,
+    "RMSE": 0.18496449458380324,
+    "R2": -0.04494967189046384,
+    "actual_mean": -0.009887806217044012,
+    "predicted_mean": 0.028474432730444876,
+    "mean_prediction_bias": 0.038362238947488886
+  },
+  "baseline_comparison": [
+    {
+      "model": "Train+validation mean baseline",
+      "n": 9412,
+      "MAE": 0.14378448609198502,
+      "RMSE": 0.18496449458380324,
+      "R2": -0.04494967189046384,
+      "actual_mean": -0.009887806217044012,
+      "predicted_mean": 0.028474432730444876,
+      "mean_prediction_bias": 0.038362238947488886
+    },
+    {
+      "model": "Training mean baseline",
+      "n": 9412,
+      "MAE": 0.14378448609198502,
+      "RMSE": 0.18496449458380324,
+      "R2": -0.04494967189046384,
+      "actual_mean": -0.009887806217044012,
+      "predicted_mean": 0.028474432730444876,
+      "mean_prediction_bias": 0.038362238947488886
+    }
+  ],
+  "warning": "Feature names were allowlisted conservatively, but feature timing still requires manual verification. This is not investment advice."
+}

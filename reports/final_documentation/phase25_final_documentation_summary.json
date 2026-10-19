@@ -1,0 +1,22 @@
+{
+  "phase": 25,
+  "project_root": "e:\\Projects\\Australian Stock Market Data Science Project",
+  "target": "forward_return_3m",
+  "selected_model_by_validation_mae": "Ridge Regression",
+  "n_features": 18,
+  "test_rows": 9412,
+  "test_mae": 0.14542968580413784,
+  "baseline_test_mae": 0.14378448609198502,
+  "test_r2": -0.06863781600094598,
+  "test_beats_baseline_mae": false,
+  "artifact_count": 180,
+  "outputs": [
+    "reports\\final_documentation\\final_research_report.md",
+    "reports\\final_documentation\\portfolio_README.md",
+    "reports\\final_documentation\\artifact_inventory.csv",
+    "reports\\final_documentation\\limitations_register.csv",
+    "reports\\final_documentation\\reproducibility_checklist.md",
+    "reports\\final_documentation\\final_model_test_comparison.csv"
+  ],
+  "warning": "Review generated report, artifact inventory, and manual feature-provenance checks before public release."
+}

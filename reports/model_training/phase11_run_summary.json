@@ -1,0 +1,24 @@
+{
+  "phase": 11,
+  "target": "forward_return_3m",
+  "input_file": "e:\\Projects\\Australian Stock Market Data Science Project\\data\\processed\\model_features\\asx_3m_return_features_and_targets.csv",
+  "all_feature_rows": 62495,
+  "target_rows": 62495,
+  "tickers_with_target": 52,
+  "n_features": 32,
+  "purge_observations": 63,
+  "train_rows": 40447,
+  "validation_rows": 6084,
+  "test_rows": 9412,
+  "selected_model_by_validation_mae": "Random Forest",
+  "test_metrics": {
+    "selected_model": "Random Forest",
+    "MAE": 0.0917140531097856,
+    "RMSE": 0.12416382162328857,
+    "R2": 0.5291215922881065,
+    "actual_mean": -0.009887806217044012,
+    "predicted_mean": 0.030212474276559168,
+    "n": 9412
+  },
+  "warning": "Educational research only; not investment advice. Historical predictive performance does not guarantee future performance."
+}

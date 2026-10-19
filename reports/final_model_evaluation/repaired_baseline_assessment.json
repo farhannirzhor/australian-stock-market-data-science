@@ -1,0 +1,25 @@
+{
+  "status": "could not identify both baseline and non-baseline rows",
+  "rows_found": [
+    {
+      "model": "Train+validation mean baseline",
+      "n": 9412,
+      "mae": 0.143784486091985,
+      "rmse": 0.1849644945838032,
+      "r2": -0.0449496718904638,
+      "actual_mean": -0.009887806217044,
+      "predicted_mean": 0.0284744327304448,
+      "mean_prediction_bias": 0.0383622389474888
+    },
+    {
+      "model": "Training mean baseline",
+      "n": 9412,
+      "mae": 0.143784486091985,
+      "rmse": 0.1849644945838032,
+      "r2": -0.0449496718904638,
+      "actual_mean": -0.009887806217044,
+      "predicted_mean": 0.0284744327304448,
+      "mean_prediction_bias": 0.0383622389474888
+    }
+  ]
+}

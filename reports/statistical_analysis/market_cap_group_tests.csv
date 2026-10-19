@@ -1,0 +1,5 @@
+metric,test,groups_included,number_of_groups,statistic,p_value,p_value_fdr
+eps_ltm,Kruskal-Wallis,Large (sample-relative); Medium (sample-relative); Small (sample-relative),3,19.10647976870692,7.097095250000807e-05,0.0002838838100000323
+pe_ltm,Kruskal-Wallis,Large (sample-relative); Medium (sample-relative); Small (sample-relative),3,8.214507885614069,0.016452893134337575,0.021937190845783435
+price_to_book,Kruskal-Wallis,Large (sample-relative); Medium (sample-relative); Small (sample-relative),3,13.48159109905319,0.0011817066763789039,0.0023634133527578077
+price_position_52w,Kruskal-Wallis,Large (sample-relative); Medium (sample-relative); Small (sample-relative),3,3.9330942827058095,0.13993921330312,0.13993921330312

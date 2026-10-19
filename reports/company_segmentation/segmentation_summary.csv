@@ -1,0 +1,2 @@
+rows,unique_tickers,features_used,selected_algorithm,selected_k,selected_silhouette_score,smallest_cluster_size,largest_cluster_size,pca_variance_explained_2d
+53,53,"market_cap_m, eps_ltm, pe_ltm, price_to_book, price_position_52w",KMeans,2,0.898049320334872,1,52,0.9685362012175294

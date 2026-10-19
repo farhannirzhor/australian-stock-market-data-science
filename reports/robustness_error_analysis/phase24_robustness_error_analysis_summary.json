@@ -1,0 +1,97 @@
+{
+  "phase": 24,
+  "overall": {
+    "n": 9412,
+    "tickers": 52,
+    "date_min": "2025-11-03 00:00:00",
+    "date_max": "2026-07-22 00:00:00",
+    "actual_mean": -0.009887806217044012,
+    "predicted_mean": 0.032577178255003364,
+    "MAE": 0.14542968580413784,
+    "RMSE": 0.18704924191415379,
+    "R2": -0.06863781600094598,
+    "mean_bias_predicted_minus_actual": 0.04246498447204738,
+    "median_absolute_error": 0.11606699727281106,
+    "p90_absolute_error": 0.31990548102527316,
+    "p95_absolute_error": 0.3732591550460075
+  },
+  "highest_error_tickers": [
+    {
+      "ticker": "ASG",
+      "MAE": 0.3526818281192243
+    },
+    {
+      "ticker": "STP",
+      "MAE": 0.2930164986874151
+    },
+    {
+      "ticker": "KMD",
+      "MAE": 0.2746764769850842
+    },
+    {
+      "ticker": "PWR",
+      "MAE": 0.25899103744987223
+    },
+    {
+      "ticker": "ANN",
+      "MAE": 0.2297823012040186
+    }
+  ],
+  "lowest_error_tickers": [
+    {
+      "ticker": "BEN",
+      "MAE": 0.039519898712775496
+    },
+    {
+      "ticker": "COL",
+      "MAE": 0.04796895868420376
+    },
+    {
+      "ticker": "ANZ",
+      "MAE": 0.05626373363127473
+    },
+    {
+      "ticker": "WPR",
+      "MAE": 0.057469723455608177
+    },
+    {
+      "ticker": "SIG",
+      "MAE": 0.05765133403316469
+    }
+  ],
+  "highest_error_month": [
+    {
+      "month": "2026-02",
+      "n": 1040,
+      "actual_mean_return": -0.08555205809852764,
+      "predicted_mean_return": 0.030815203896433326,
+      "MAE": 0.17664513373607665,
+      "RMSE": 0.21857408660238545,
+      "bias_predicted_minus_actual": 0.11636726199496097
+    }
+  ],
+  "lowest_error_month": [
+    {
+      "month": "2026-04",
+      "n": 1040,
+      "actual_mean_return": 0.014074538233281685,
+      "predicted_mean_return": 0.03494522400762838,
+      "MAE": 0.12229884685948933,
+      "RMSE": 0.16135650655311878,
+      "bias_predicted_minus_actual": 0.020870685774346698
+    }
+  ],
+  "overlap_diagnostic": {
+    "rows": 9412,
+    "overlapping_with_previous_target_rows": 9360,
+    "overlap_fraction_after_first_ticker_rows": 1.0,
+    "interpretation": "Overlapping labels make row-level errors dependent; standard errors and apparent sample size should not be treated as independent observations."
+  },
+  "interpretation": [
+    "These are descriptive diagnostics of the held-out test period, not a new tuning loop.",
+    "Forward-return targets overlap over 63 observations, so errors are temporally dependent.",
+    "The baseline outperformed Ridge on the Phase 23 test metrics; do not claim the current model adds predictive value.",
+    "Ticker/month patterns may be unstable and should not be interpreted as future forecasts."
+  ],
+  "warning": "Historical research only; no investment advice."
+}

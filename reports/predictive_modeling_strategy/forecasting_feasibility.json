@@ -1,0 +1,17 @@
+{
+  "has_dated_observations": false,
+  "date_columns": [],
+  "price_like_columns": [
+    "price",
+    "price_outlier",
+    "price_to_book",
+    "price_position_52w",
+    "price_distance_from_52w_low_pct",
+    "price_distance_from_52w_high_pct",
+    "price_outside_52w_range"
+  ],
+  "explicit_future_target_columns": [],
+  "has_repeated_time_series_structure": false,
+  "genuine_future_price_forecasting_supported": false,
+  "reason": "The supplied dataset is cross-sectional and does not contain repeated dated prices or an observed future outcome. A forecast target cannot be derived validly from a single snapshot."
+}

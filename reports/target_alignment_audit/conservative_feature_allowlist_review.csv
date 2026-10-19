@@ -1,0 +1,48 @@
+column,allowlisted_for_corrected_model,note
+ticker,False,Excluded by conservative allowlist; manually review before adding.
+date,False,Excluded by conservative allowlist; manually review before adding.
+time_split,False,Excluded by conservative allowlist; manually review before adding.
+lagged_return_1d,False,Excluded by conservative allowlist; manually review before adding.
+lagged_return_5d,False,Excluded by conservative allowlist; manually review before adding.
+lagged_return_21d,False,Excluded by conservative allowlist; manually review before adding.
+lagged_return_63d,False,Excluded by conservative allowlist; manually review before adding.
+lagged_return_126d,False,Excluded by conservative allowlist; manually review before adding.
+volatility_5d,False,Excluded by conservative allowlist; manually review before adding.
+volatility_21d,False,Excluded by conservative allowlist; manually review before adding.
+volatility_63d,False,Excluded by conservative allowlist; manually review before adding.
+moving_average_5d,False,Excluded by conservative allowlist; manually review before adding.
+price_to_ma_5d,False,Excluded by conservative allowlist; manually review before adding.
+moving_average_21d,False,Excluded by conservative allowlist; manually review before adding.
+price_to_ma_21d,False,Excluded by conservative allowlist; manually review before adding.
+moving_average_50d,False,Excluded by conservative allowlist; manually review before adding.
+price_to_ma_50d,False,Excluded by conservative allowlist; manually review before adding.
+moving_average_100d,False,Excluded by conservative allowlist; manually review before adding.
+price_to_ma_100d,False,Excluded by conservative allowlist; manually review before adding.
+moving_average_200d,False,Excluded by conservative allowlist; manually review before adding.
+price_to_ma_200d,False,Excluded by conservative allowlist; manually review before adding.
+momentum_5d,False,Excluded by conservative allowlist; manually review before adding.
+momentum_21d,True,Candidate only; verify feature uses data available at or before the row date.
+momentum_63d,True,Candidate only; verify feature uses data available at or before the row date.
+momentum_126d,False,Excluded by conservative allowlist; manually review before adding.
+benchmark_return_1d,True,Candidate only; verify feature uses data available at or before the row date.
+benchmark_return_5d_lagged,False,Excluded by conservative allowlist; manually review before adding.
+benchmark_volatility_5d,False,Excluded by conservative allowlist; manually review before adding.
+benchmark_return_21d_lagged,False,Excluded by conservative allowlist; manually review before adding.
+benchmark_volatility_21d,True,Candidate only; verify feature uses data available at or before the row date.
+benchmark_return_63d_lagged,False,Excluded by conservative allowlist; manually review before adding.
+benchmark_volatility_63d,True,Candidate only; verify feature uses data available at or before the row date.
+future_price_1m,False,Excluded by conservative allowlist; manually review before adding.
+forward_return_1m,False,Excluded by conservative allowlist; manually review before adding.
+future_price_3m,False,Excluded by conservative allowlist; manually review before adding.
+forward_return_3m,False,Excluded by conservative allowlist; manually review before adding.
+future_price_6m,False,Excluded by conservative allowlist; manually review before adding.
+forward_return_6m,False,Excluded by conservative allowlist; manually review before adding.
+benchmark_forward_return_1m,False,Excluded by conservative allowlist; manually review before adding.
+benchmark_forward_return_3m,False,Excluded by conservative allowlist; manually review before adding.
+benchmark_forward_return_6m,False,Excluded by conservative allowlist; manually review before adding.
+relative_forward_return_1m,False,Excluded by conservative allowlist; manually review before adding.
+outperforms_benchmark_1m,False,Excluded by conservative allowlist; manually review before adding.
+relative_forward_return_3m,False,Excluded by conservative allowlist; manually review before adding.
+outperforms_benchmark_3m,False,Excluded by conservative allowlist; manually review before adding.
+relative_forward_return_6m,False,Excluded by conservative allowlist; manually review before adding.
+outperforms_benchmark_6m,False,Excluded by conservative allowlist; manually review before adding.

@@ -1,0 +1,2 @@
+rows,columns,unique_tickers,duplicate_tickers,has_date_column,has_explicit_future_target
+53,47,53,0,True,False

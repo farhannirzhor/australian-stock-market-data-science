@@ -1,0 +1,17 @@
+Column,Meaning,Type,Unit,Role,Raw_or_Derived
+TY,Company ticker / trading symbol,Categorical,Ticker,Identifier,Raw
+Company name,Company name,Categorical,Text,Identifier,Raw
+TOTAL SHARES,Total number of shares,Numeric,Shares,Feature,Raw
+MARKET CAPITAL(ml),Market capitalization,Numeric,Millions,Feature,Derived
+Total Shareholders Equity(ml),Shareholders' equity,Numeric,Millions,Potential Feature,Raw / currently empty
+2H2024(JUL-DEC),Second-half 2024 earnings/EPS input,Numeric,Dataset-defined,Feature,Raw / partly formula-derived
+1H2025(JAN-JUNE),First-half 2025 earnings/EPS input,Numeric,Dataset-defined,Feature,Raw / partly formula-derived
+EPS IN LAST 12 MONTHS,Earnings per share over the last 12 months,Numeric,Dataset-defined,Feature,Derived
+EPS AP 24/25,Annual-period EPS figure,Numeric,Dataset-defined,Feature,Raw / requires validation
+P/E BASED ON LAST ANNUAL REPORT,P/E calculated using annual-report EPS,Numeric,Ratio,Feature,Derived
+AVERAGE P/E FOR LAST 10 YEARS,Historical average P/E,Numeric,Ratio,Potential Feature,Raw / currently empty
+P/E BASED ON LAST 12 MONTHS,P/E based on LTM EPS,Numeric,Ratio,Feature,Derived
+PRICE,Current/share price in dataset,Numeric,Currency,Feature,Raw
+book value per share $,Book value per share,Numeric,Currency/share,Feature,Raw
+52 Weeks Low - High,52-week low and high price range,Text / Range,Currency,Feature after parsing,Raw
+BUY PRICE,Buy-price field; origin/definition not established,Numeric,Unknown,Potential Feature,Raw / currently empty

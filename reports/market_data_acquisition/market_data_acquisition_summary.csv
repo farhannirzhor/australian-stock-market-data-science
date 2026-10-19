@@ -1,0 +1,2 @@
+requested_company_tickers,successful_company_tickers,failed_company_tickers,combined_price_rows,unique_tickers_in_output,duplicate_ticker_date_rows,benchmark_status,history_period_requested,interval,auto_adjust,date_min,date_max
+53,52,1,65771,52,0,success,5y,1d,True,2021-10-19 00:00:00,2026-10-19 00:00:00

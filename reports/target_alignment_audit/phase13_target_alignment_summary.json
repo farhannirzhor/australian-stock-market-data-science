@@ -1,0 +1,29 @@
+{
+  "phase": 13,
+  "price_column_used": "close",
+  "price_rows": 65771,
+  "price_tickers": 52,
+  "reconstructed_target_rows": 62495,
+  "phase10_target_rows": 62495,
+  "candidate_safe_features": [
+    "momentum_21d",
+    "momentum_63d",
+    "benchmark_return_1d",
+    "benchmark_volatility_21d",
+    "benchmark_volatility_63d"
+  ],
+  "n_candidate_safe_features": 5,
+  "strict_split_rows": {
+    "train": 40447,
+    "validation": 6084,
+    "test": 9412
+  },
+  "outputs": {
+    "corrected_targets": "e:\\Projects\\Australian Stock Market Data Science Project\\data\\processed\\model_targets\\asx_forward_return_3m_targets_with_endpoints.csv",
+    "corrected_model_table": "e:\\Projects\\Australian Stock Market Data Science Project\\data\\processed\\model_features\\asx_3m_corrected_model_table.csv",
+    "train": "e:\\Projects\\Australian Stock Market Data Science Project\\data\\processed\\model_features\\asx_3m_strict_split_train.csv",
+    "validation": "e:\\Projects\\Australian Stock Market Data Science Project\\data\\processed\\model_features\\asx_3m_strict_split_validation.csv",
+    "test": "e:\\Projects\\Australian Stock Market Data Science Project\\data\\processed\\model_features\\asx_3m_strict_split_test.csv"
+  },
+  "warning": "The allowlist is based on column names and must be manually checked against feature calculation timing. Reconstructed targets must be compared with Phase 9 before replacing prior labels."
+}

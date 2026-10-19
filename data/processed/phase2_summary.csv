@@ -1,0 +1,15 @@
+Metric,Value
+Original rows,54
+Cleaned rows,54
+Original columns,16
+Cleaned columns,27
+Unique companies,54
+Unique tickers,53
+Duplicate rows,0
+Duplicate ticker rows,1
+Completely empty columns removed,3
+Missing annual P/E records,2
+Invalid 52-week ranges,1
+Prices outside reported 52-week range,0
+LTM EPS validation problems,0
+LTM P/E validation problems,2

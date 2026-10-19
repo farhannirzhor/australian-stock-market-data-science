@@ -1,0 +1,30 @@
+feature,allowed_by_name,excluded_from_model,audit_reasons,missing_rate,unique_values
+momentum_21d_x,False,True,merge-suffixed column; provenance requires review; not on Phase 19 engineered-feature allowlist,0.020449385982160413,51582
+momentum_63d_x,False,True,merge-suffixed column; provenance requires review; not on Phase 19 engineered-feature allowlist,0.05948912285719393,50058
+benchmark_return_1d_x,False,True,merge-suffixed column; provenance requires review; not on Phase 19 engineered-feature allowlist,0.0009116422072466618,1075
+benchmark_volatility_21d_x,False,True,merge-suffixed column; provenance requires review; not on Phase 19 engineered-feature allowlist,0.020288507945587474,1054
+benchmark_volatility_63d_x,False,True,merge-suffixed column; provenance requires review; not on Phase 19 engineered-feature allowlist,0.05932824482062099,1012
+momentum_1d,True,False,candidate for calculation/timing review,0.0009295175446436552,49070
+momentum_5d,True,False,candidate for calculation/timing review,0.004647587723218276,51216
+momentum_21d_y,False,True,merge-suffixed column; provenance requires review; not on Phase 19 engineered-feature allowlist,0.019519868437516758,51625
+momentum_63d_y,False,True,merge-suffixed column; provenance requires review; not on Phase 19 engineered-feature allowlist,0.05855960531255027,50104
+momentum_126d,True,False,candidate for calculation/timing review,0.11711921062510054,47071
+volatility_5d,True,False,candidate for calculation/timing review,0.004647587723218276,54479
+volatility_21d,True,False,candidate for calculation/timing review,0.019519868437516758,53901
+volatility_63d,True,False,candidate for calculation/timing review,0.05855960531255027,51807
+price_to_sma_21d,True,False,candidate for calculation/timing review,0.018590350892873104,54641
+price_to_sma_63d,True,False,candidate for calculation/timing review,0.05763008776790662,52649
+price_to_sma_126d,True,False,candidate for calculation/timing review,0.11618969308045689,49402
+short_term_reversal_1d,True,False,candidate for calculation/timing review,0.0018590350892873104,49022
+benchmark_return_1d_y,False,True,merge-suffixed column; provenance requires review; not on Phase 19 engineered-feature allowlist,0.0009116422072466618,1075
+benchmark_return_5d,True,False,candidate for calculation/timing review,0.004558211036233309,1071
+benchmark_return_21d,True,False,candidate for calculation/timing review,0.01935899040094382,1055
+benchmark_return_63d,True,False,candidate for calculation/timing review,0.058398727275977336,1013
+benchmark_return_126d,True,False,candidate for calculation/timing review,0.11695833258852761,950
+benchmark_volatility_5d,True,False,candidate for calculation/timing review,0.004558211036233309,1071
+benchmark_volatility_21d_y,False,True,merge-suffixed column; provenance requires review; not on Phase 19 engineered-feature allowlist,0.01935899040094382,1055
+benchmark_volatility_63d_y,False,True,merge-suffixed column; provenance requires review; not on Phase 19 engineered-feature allowlist,0.058398727275977336,1013
+relative_momentum_5d,True,False,candidate for calculation/timing review,0.004647587723218276,54691
+relative_momentum_21d,True,False,candidate for calculation/timing review,0.019519868437516758,54598
+relative_momentum_63d,True,False,candidate for calculation/timing review,0.05855960531255027,52641
+relative_momentum_126d,True,False,candidate for calculation/timing review,0.11711921062510054,49386

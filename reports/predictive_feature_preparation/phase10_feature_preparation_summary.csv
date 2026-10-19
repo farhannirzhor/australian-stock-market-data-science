@@ -1,0 +1,2 @@
+price_rows,model_table_rows,unique_tickers,predictor_count,primary_target,labeled_rows,unlabeled_rows,train_rows,validation_rows,test_rows,duplicate_ticker_date_rows
+65771,65771,52,29,forward_return_3m,62495,3276,46011,9880,9880,0

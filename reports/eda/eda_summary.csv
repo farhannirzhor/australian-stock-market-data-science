@@ -1,0 +1,2 @@
+rows,unique_tickers,duplicate_tickers,missing_annual_pe,invalid_52w_ranges,negative_ltm_eps,negative_ltm_pe,companies_with_price_position
+53,53,0,2,1,1,1,52

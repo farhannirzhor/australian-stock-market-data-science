@@ -1,0 +1,23 @@
+Column,Data Type,Non-Null Count,Missing Count,Missing %
+TY,str,54,0,0.0
+Company name,str,54,0,0.0
+TOTAL SHARES,int64,54,0,0.0
+MARKET CAPITAL(ml),float64,54,0,0.0
+Total Shareholders Equity(ml),float64,0,54,100.0
+2H2024(JUL-DEC),float64,54,0,0.0
+1H2025(JAN-JUNE),float64,54,0,0.0
+EPS IN LAST 12 MONTHS,float64,54,0,0.0
+EPS AP 24/25,float64,54,0,0.0
+P/E BASED ON LAST ANNUAL REPORT,float64,52,2,3.7
+AVERAGE P/E FOR LAST 10 YEARS,float64,0,54,100.0
+P/E BASED ON LAST 12 MONTHS,float64,54,0,0.0
+PRICE,float64,54,0,0.0
+book value per share $,float64,54,0,0.0
+52 Weeks Low - High,str,54,0,0.0
+BUY PRICE,float64,0,54,100.0
+Calculated Market Cap,float64,54,0,0.0
+Market Cap Difference,float64,54,0,0.0
+Calculated LTM EPS,float64,54,0,0.0
+EPS Difference,float64,54,0,0.0
+Calculated LTM P/E,float64,54,0,0.0
+P/E Difference,float64,54,0,0.0

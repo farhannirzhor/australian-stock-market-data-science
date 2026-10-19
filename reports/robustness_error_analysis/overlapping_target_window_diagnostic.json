@@ -1,0 +1,6 @@
+{
+  "rows": 9412,
+  "overlapping_with_previous_target_rows": 9360,
+  "overlap_fraction_after_first_ticker_rows": 1.0,
+  "interpretation": "Overlapping labels make row-level errors dependent; standard errors and apparent sample size should not be treated as independent observations."
+}

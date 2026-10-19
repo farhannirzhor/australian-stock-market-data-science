@@ -1,0 +1,2 @@
+model,n,accuracy,balanced_accuracy,F1_positive_class,positive_rate_actual,positive_rate_predicted,ROC_AUC
+Random Forest Classifier,9412,0.48586910327241817,0.47567737377066804,0.3470516799352314,0.47269443263918404,0.3147046323841904,0.453124961079713

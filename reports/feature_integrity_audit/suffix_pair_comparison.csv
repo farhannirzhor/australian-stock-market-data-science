@@ -1,0 +1,11 @@
+column_a,column_b,nonmissing_overlap,equal_fraction_on_overlap,max_abs_numeric_difference,same_missingness
+momentum_21d_x,momentum_21d_y,54799,0.016971112611544006,0.6800595699660996,False
+momentum_63d_x,momentum_63d_y,52615,0.0162121068136463,0.928571631796447,False
+benchmark_return_1d_x,benchmark_return_1d_y,55892,1.0,0.0,True
+benchmark_volatility_21d_x,benchmark_volatility_21d_y,54808,0.0,0.0053944443791755,False
+benchmark_volatility_63d_x,benchmark_volatility_63d_y,52624,0.0,0.0024772879840716,False
+momentum_21d_y,momentum_21d_x,54799,0.016971112611544006,0.6800595699660996,False
+momentum_63d_y,momentum_63d_x,52615,0.0162121068136463,0.928571631796447,False
+benchmark_return_1d_y,benchmark_return_1d_x,55892,1.0,0.0,True
+benchmark_volatility_21d_y,benchmark_volatility_21d_x,54808,0.0,0.0053944443791755,False
+benchmark_volatility_63d_y,benchmark_volatility_63d_x,52624,0.0,0.0024772879840716,False

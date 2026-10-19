@@ -1,0 +1,5 @@
+category,column,status
+Identifier,ticker,Exclude from model inputs
+Identifier,company_name,Exclude from model inputs
+Date/time,eps_half_year_difference,Review meaning and granularity
+Target name,<none detected>,No explicit future target detected

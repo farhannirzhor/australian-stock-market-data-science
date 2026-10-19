@@ -1,0 +1,2 @@
+rows,unique_tickers,duplicate_ticker_date_rows,date_min,date_max,missing_open,missing_high,missing_low,missing_close,missing_volume,high_below_low_rows,nonpositive_close_rows
+65771,52,0,2021-10-19 00:00:00,2026-10-19 00:00:00,0,0,0,0,0,0,0

@@ -1,0 +1,6 @@
+,count
+annual_pe_missing_flag,2
+negative_ltm_eps_flag,1
+negative_ltm_pe_flag,1
+invalid_52w_range_flag,1
+price_outside_52w_range,0

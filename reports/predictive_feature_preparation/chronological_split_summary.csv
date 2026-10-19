@@ -1,0 +1,4 @@
+time_split,rows,first_date,last_date,tickers,labeled_3m_rows
+train,46011,2021-10-19,2025-04-22,52,46011
+validation,9880,2025-04-23,2026-01-20,52,9880
+test,9880,2026-01-21,2026-10-19,52,6604

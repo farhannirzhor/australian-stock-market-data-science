@@ -1,0 +1,5 @@
+dataset,required_fields,purpose,priority,quality_checks
+Daily adjusted market prices,"ticker, date, adjusted_close (or documented equivalent), currency",Calculate historical returns and define forward-return targets,Required for price/return forecasting,"Trading dates, duplicate ticker-date pairs, missing periods, splits/dividends treatment, delisted tickers"
+Benchmark index,"benchmark ticker, date, adjusted_close",Define relative performance/outperformance labels,Required for benchmark-relative classification,Same date range and compatible return calculation
+Point-in-time financial fundamentals,"ticker, report_period, publication_date, fundamental metrics",Build predictors without look-ahead leakage,Recommended for fundamental forecasting,"Use publication date, not only accounting period end; track restatements"
+Company/ticker mapping,"ticker, company identifier, effective start/end dates",Handle ticker changes and survivorship issues,Recommended,"Corporate actions, renamed/delisted firms, mapping validity"

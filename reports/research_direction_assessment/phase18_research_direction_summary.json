@@ -1,0 +1,54 @@
+{
+  "phase": 18,
+  "target_rows": {
+    "train": 40447,
+    "validation": 6084,
+    "test": 9412
+  },
+  "features": [
+    "momentum_21d",
+    "momentum_63d",
+    "benchmark_return_1d",
+    "benchmark_volatility_21d",
+    "benchmark_volatility_63d"
+  ],
+  "raw_return_regression": {
+    "best_validation_model": "Training mean baseline",
+    "best_validation_mae": 0.14198443955103976,
+    "baseline_validation_mae": 0.14198443955103976,
+    "best_beats_baseline_on_validation_mae": false,
+    "selected_test_results": [
+      {
+        "model": "Training mean baseline",
+        "n": 9412,
+        "MAE": 0.14255885547150116,
+        "RMSE": 0.18363815182311155,
+        "R2": -0.030017160524183906,
+        "actual_mean": -0.009887806217044012,
+        "predicted_mean": 0.021461323363067605
+      }
+    ]
+  },
+  "positive_return_classification": {
+    "best_validation_model": "Random Forest Classifier",
+    "best_validation_balanced_accuracy": 0.5152825286037678,
+    "majority_baseline_validation_balanced_accuracy": 0.5,
+    "best_beats_baseline_on_validation_balanced_accuracy": true,
+    "selected_test_results": {
+      "model": "Random Forest Classifier",
+      "n": 9412,
+      "accuracy": 0.48586910327241817,
+      "balanced_accuracy": 0.47567737377066804,
+      "F1_positive_class": 0.3470516799352314,
+      "positive_rate_actual": 0.47269443263918404,
+      "positive_rate_predicted": 0.3147046323841904,
+      "ROC_AUC": 0.453124961079713
+    }
+  },
+  "benchmark_relative_target": {
+    "available": false,
+    "column": null,
+    "status": "not available; do not infer benchmark forward return from contemporaneous benchmark features"
+  },
+  "warning": "Exploratory research only. Classification of positive returns is not a trading strategy or profitability estimate."
+}

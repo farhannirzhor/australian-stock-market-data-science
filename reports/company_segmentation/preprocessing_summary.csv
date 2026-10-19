@@ -1,0 +1,6 @@
+feature,missing_before_imputation,imputation_median,median_after_imputation,scaled_median
+market_cap_m,0,8.156367615509955,8.156367615509955,0.0
+eps_ltm,0,27.2,27.2,0.0
+pe_ltm,0,18.648039657503386,18.648039657503386,0.0
+price_to_book,0,1.8114478114478116,1.8114478114478116,0.0
+price_position_52w,1,0.5878573914773009,0.5878573914773009,0.0
